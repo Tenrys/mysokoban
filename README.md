@@ -31,4 +31,5 @@ See `requirements.txt`.
 ## Credits
 
 Assets (images, audio): [OMORI](http://www.omori-game.com/)
+
 Map format: [Tiled](https://www.mapeditor.org/)
