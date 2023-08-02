@@ -13,7 +13,7 @@ def play_sound(name):
     pygame.mixer.Sound.play(sounds[name])
   else:
     raise Exception("Invalid sound name")
-  
+
 print("Playing music")
 pygame.mixer.music.load(os.path.join(os.path.dirname(__file__), 'music', 'goofy.ogg'))
 pygame.mixer.music.set_volume(0.75)
